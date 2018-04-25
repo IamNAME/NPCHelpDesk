@@ -1,0 +1,2 @@
+c:\users\secho\documents\visual studio 2015\Projects\HelpDesk\HelpDesk\bin\Debug\HelpDesk.exe.config
+C:\Users\dwylie\Desktop\HelpDesk\HelpDesk\bin\Debug\HelpDesk.exe.config
