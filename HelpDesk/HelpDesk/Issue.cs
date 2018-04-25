@@ -12,10 +12,14 @@ namespace HelpDesk
         private DateTime issueDate;
         private string issueCategory;
         private string issueSpecificType;
-        private bool highPriority;
+        private int priority;
         private string issueDeviceID;
         private string issueDeviceOS;
         private string issueDescription;
+        private bool issueCompleted;
+        private string issueWorkedBy;
+        private DateTime issueWorkedDate;
+        private string issueResolution;
 
         public int IssueID
         {
@@ -69,16 +73,16 @@ namespace HelpDesk
             }
         }
 
-        public bool HighPriority
+        public bool Priority
         {
             get
             {
-                return highPriority;
+                return Priority;
             }
 
             set
             {
-                highPriority = value;
+                Priority = value;
             }
         }
 
@@ -118,6 +122,32 @@ namespace HelpDesk
             set
             {
                 issueDescription = value;
+            }
+        }
+
+        public bool IssueCompleted
+        {
+            get
+            {
+                return issueCompleted;
+            }
+
+            set
+            {
+                issueCompleted = value;
+            }
+        }
+
+        public string IssueResolution
+        {
+            get
+            {
+                return issueResolution;
+            }
+
+            set
+            {
+                issueResolution = value;
             }
         }
     }

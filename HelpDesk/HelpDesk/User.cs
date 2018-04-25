@@ -13,6 +13,7 @@ namespace HelpDesk
         private string _lName;
         private string _email;
         private string _phone;
+        private string _location;
         //private string _role;//Student/Staff 
         //add room #
 
@@ -80,7 +81,7 @@ namespace HelpDesk
                 _phone = value;
             }
         }
-        public string Role
+        /*public string Role
         {
             get
             {
@@ -91,7 +92,7 @@ namespace HelpDesk
             {
                 _role = value;
             }
-        }
+        }*/
         #endregion
         #region Constructors
         public User()
