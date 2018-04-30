@@ -73,7 +73,7 @@ namespace HelpDesk
             }
         }
 
-        public bool Priority
+        public int Priority
         {
             get
             {
@@ -148,6 +148,24 @@ namespace HelpDesk
             set
             {
                 issueResolution = value;
+            }
+        }
+
+        public Issue()
+        {
+            issueCompleted = false;
+            issueWorkedBy = null;
+            issueWorkedDate = new DateTime();
+            issueResolution = null;
+        }
+
+        public void saveIssueToFile()
+        {
+            string saveString = this.issueID.ToString()+","+this.issueDate.ToString()+","+this.issueCategory+","+this.issueSpecificType+","+this.priority.ToString()+","+this.issueDeviceID+","+this.issueDeviceOS+","+this.issueDescription+","+this.issueCompleted.ToString()+","+this.issueWorkedBy+","+this.issueWorkedDate.ToString()+","+this.issueResolution;
+            using (System.IO.StreamWriter file =
+            new System.IO.StreamWriter(@"C:\NPCHelpDesk\issuelist.txt",true))
+            {
+                file.WriteLine(saveString);
             }
         }
     }

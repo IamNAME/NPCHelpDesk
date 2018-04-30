@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HelpDesk
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace HelpDesk
         {
             //Form2 f2 = new Form2();
             //f2.ShowDialog(); // Shows Form2
-            try
+            /*try
 
             {
 
@@ -63,7 +63,7 @@ namespace HelpDesk
 
                             this.hide();
 
-                            Form2 f2 = new form2(); //this is the change, code for redirect
+                            IssueForm f2 = new form2(); //this is the change, code for redirect
 
                             f2.ShowDialog();
 
@@ -114,7 +114,7 @@ namespace HelpDesk
             {
 
                 MessageBox.Show(es.Message);
-            }
+            }*/
       }
    }
 }

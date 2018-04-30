@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace HelpDesk
 {
-    public partial class Form2 : Form
+    public partial class IssueViewer : Form
     {
-        public Form2()
+        public IssueViewer()
         {
             InitializeComponent();
-        }
-
-        private void TrblShoot_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

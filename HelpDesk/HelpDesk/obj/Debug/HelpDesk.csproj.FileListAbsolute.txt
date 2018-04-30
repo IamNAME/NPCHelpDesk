@@ -1,3 +1,13 @@
 c:\users\secho\documents\visual studio 2015\Projects\HelpDesk\HelpDesk\bin\Debug\HelpDesk.exe.config
 C:\Users\dwylie\Desktop\HelpDesk\HelpDesk\bin\Debug\HelpDesk.exe.config
 C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\bin\Debug\HelpDesk.exe.config
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.csprojResolveAssemblyReference.cache
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.Login.resources
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.Properties.Resources.resources
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.IssueForm.resources
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.csproj.GenerateResource.Cache
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.IssueViewer.resources
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\bin\Debug\HelpDesk.exe
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\bin\Debug\HelpDesk.pdb
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.exe
+C:\Users\dwylie\Documents\GitHub\NPCHelpDesk\HelpDesk\HelpDesk\obj\Debug\HelpDesk.pdb
